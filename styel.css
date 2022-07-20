@@ -1,4 +1,115 @@
-body{
-     width: 100%;
+/* fonts styel */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@300&family=Poppins&family=Roboto:wght@500&display=swap');
+
+body {
+    width: 100%;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section */
+
+.container {
+    background-color: black;
+    padding: 60px 80px;
+    border-radius: 10px;
+    margin: 60px 80px;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 1em;
+    height: 30px;
+}
+
+.link-button {
+    text-decoration: none;
+
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.fa-greater-than {
+    margin-left: 1em;
+}
+
+
+.half-width {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+/* second part */
+.flexible-container {
+    background-color: black;
+    height: 330px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+
+
+/* li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+} */
+.div {
+    text-align: center;
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 20px 70px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#special {
+    color: aliceblue;
+    background-color: red;
+}
+
+button {
+    margin-top: 5px;
+}
+
+.players-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.flexible-container-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-gap: 5px;
+}
+
+.power-container {
+    display: flex;
+}
+
+
+
+
+/* ---------media Queries-------- */
+/* mobile device */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .half-width {
+        flex-direction: row;
+
+
+    }
+
 }
